@@ -176,9 +176,10 @@ p {
 }
 
 .rodape ul {
+  margin: 0px 3rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 @media (max-width:914px){
@@ -211,5 +212,15 @@ p {
   width: 45%;
   margin: 25px;
   padding: 15px;
+  }
+  .header-menu {
+  flex-wrap: nowrap;
+  margin: 0px 0px;
+  padding: 0;
+  }
+  .logo a img {
+    width: 84px;
+    margin: 20px;
+    padding: 15px
   }
 }
